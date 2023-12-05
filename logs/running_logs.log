@@ -302,3 +302,23 @@ x==========x]
 [2023-12-05 17:04:52,266: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-12-05 17:17:27,422: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 17:17:27,425: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 17:17:27,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 17:17:27,427: INFO: common: created directory at: artifacts]
+[2023-12-05 17:17:27,428: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 17:17:27,428: INFO: data_ingesation: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 17:17:40,958: INFO: data_ingesation: Downloaded data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 17:17:42,594: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 17:19:10,542: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 17:19:10,542: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 17:19:10,561: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 17:19:10,564: INFO: common: created directory at: artifacts]
+[2023-12-05 17:19:10,565: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 17:19:10,566: INFO: data_ingesation: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 17:19:25,721: INFO: data_ingesation: Downloaded data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 17:19:27,304: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
