@@ -121,3 +121,184 @@ x==========x]
 [2023-12-05 15:39:13,312: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2023-12-05 16:24:04,978: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:24:04,983: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:24:04,987: INFO: common: created directory at: artifacts]
+[2023-12-05 16:24:33,041: INFO: common: json file saved at: scores.json]
+[2023-12-05 16:24:39,223: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 16:24:39,688: INFO: builder_impl: Assets written to: C:\Users\KETAN~1.SAL\AppData\Local\Temp\tmp_5hb5k8j\model\data\model\assets]
+[2023-12-05 16:34:20,691: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:34:20,707: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:34:20,710: INFO: common: created directory at: artifacts]
+[2023-12-05 16:34:39,620: INFO: common: json file saved at: scores.json]
+[2023-12-05 16:34:43,137: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-12-05 16:34:43,536: INFO: builder_impl: Assets written to: C:\Users\KETAN~1.SAL\AppData\Local\Temp\tmpd1o3mw7l\model\data\model\assets]
+[2023-12-05 16:47:45,538: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 16:47:45,540: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:47:45,542: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:47:45,543: INFO: common: created directory at: artifacts]
+[2023-12-05 16:47:45,543: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 16:47:45,543: INFO: data_ingesation: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 16:47:59,101: INFO: data_ingesation: Downloaded data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 16:48:00,798: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 16:48:00,799: INFO: main: *******************]
+[2023-12-05 16:48:00,799: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 16:48:00,801: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:48:00,804: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:48:00,806: INFO: common: created directory at: artifacts]
+[2023-12-05 16:48:00,808: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 16:48:01,189: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 16:48:01,392: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 16:48:01,393: INFO: main: *******************]
+[2023-12-05 16:48:01,393: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 16:48:01,395: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:48:01,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:48:01,399: INFO: common: created directory at: artifacts]
+[2023-12-05 16:48:01,400: INFO: common: created directory at: artifacts\training]
+[2023-12-05 16:49:13,754: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 16:49:13,755: INFO: main: *******************]
+[2023-12-05 16:49:13,755: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 16:49:13,756: ERROR: main: name 'EvaluationPipeline' is not defined]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-Deep-learning-project\main.py", line 51, in <module>
+    model_evalution = EvaluationPipeline()
+NameError: name 'EvaluationPipeline' is not defined
+[2023-12-05 16:53:43,632: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 16:53:43,640: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:53:43,640: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:53:43,644: INFO: common: created directory at: artifacts]
+[2023-12-05 16:53:43,644: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 16:53:43,644: INFO: data_ingesation: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 16:54:05,382: INFO: data_ingesation: Downloaded data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 16:54:07,460: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 16:54:07,460: INFO: main: *******************]
+[2023-12-05 16:54:07,460: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 16:54:07,460: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:54:07,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:54:07,477: INFO: common: created directory at: artifacts]
+[2023-12-05 16:54:07,478: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 16:54:07,806: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 16:54:08,077: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 16:54:08,078: INFO: main: *******************]
+[2023-12-05 16:54:08,078: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 16:54:08,080: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:54:08,083: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:54:08,083: INFO: common: created directory at: artifacts]
+[2023-12-05 16:54:08,084: INFO: common: created directory at: artifacts\training]
+[2023-12-05 16:55:03,175: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 16:55:03,176: INFO: main: *******************]
+[2023-12-05 16:55:03,176: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 16:55:03,176: ERROR: main: name 'EvaluationPipeline' is not defined]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-Deep-learning-project\main.py", line 51, in <module>
+    model_evalution = EvaluationPipeline()
+NameError: name 'EvaluationPipeline' is not defined
+[2023-12-05 16:56:07,707: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 16:56:07,709: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:56:07,711: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:56:07,713: INFO: common: created directory at: artifacts]
+[2023-12-05 16:56:07,713: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 16:56:07,714: INFO: data_ingesation: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 16:56:10,576: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts/data_ingestion']
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-Deep-learning-project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "d:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "d:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\data_ingesation.py", line 33, in download_file
+    raise e
+  File "d:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\data_ingesation.py", line 28, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\Ketan.Salian\AppData\Local\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 275, in download
+    for file in os.listdir(osp.dirname(output) or "."):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts/data_ingestion'
+[2023-12-05 16:56:27,577: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 16:56:27,582: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:56:27,582: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:56:27,588: INFO: common: created directory at: artifacts]
+[2023-12-05 16:56:27,589: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 16:56:27,589: INFO: data_ingesation: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 16:56:40,174: INFO: data_ingesation: Downloaded data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 16:56:41,710: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 16:56:41,711: INFO: main: *******************]
+[2023-12-05 16:56:41,711: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 16:56:41,715: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:56:41,717: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:56:41,718: INFO: common: created directory at: artifacts]
+[2023-12-05 16:56:41,719: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 16:56:42,047: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 16:56:42,214: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 16:56:42,214: INFO: main: *******************]
+[2023-12-05 16:56:42,214: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 16:56:42,214: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:56:42,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:56:42,230: INFO: common: created directory at: artifacts]
+[2023-12-05 16:56:42,231: INFO: common: created directory at: artifacts\training]
+[2023-12-05 16:57:44,465: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 16:57:44,466: INFO: main: *******************]
+[2023-12-05 16:57:44,466: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 16:57:44,471: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 16:57:44,474: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 16:57:44,475: INFO: common: created directory at: artifacts]
+[2023-12-05 16:58:03,039: INFO: common: json file saved at: scores.json]
+[2023-12-05 16:58:03,052: INFO: common: json file saved at: scores.json]
+[2023-12-05 16:58:03,052: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-12-05 17:03:08,459: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 17:03:08,464: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 17:03:08,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 17:03:08,467: INFO: common: created directory at: artifacts]
+[2023-12-05 17:03:08,468: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 17:03:08,469: INFO: data_ingesation: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 17:03:38,482: INFO: data_ingesation: Downloaded data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 17:03:40,525: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-05 17:03:40,526: INFO: main: *******************]
+[2023-12-05 17:03:40,526: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-12-05 17:03:40,530: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 17:03:40,533: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 17:03:40,535: INFO: common: created directory at: artifacts]
+[2023-12-05 17:03:40,536: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-12-05 17:03:40,865: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-12-05 17:03:41,147: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-12-05 17:03:41,147: INFO: main: *******************]
+[2023-12-05 17:03:41,147: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-12-05 17:03:41,150: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 17:03:41,153: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 17:03:41,154: INFO: common: created directory at: artifacts]
+[2023-12-05 17:03:41,155: INFO: common: created directory at: artifacts\training]
+[2023-12-05 17:04:33,497: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-12-05 17:04:33,498: INFO: main: *******************]
+[2023-12-05 17:04:33,499: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-12-05 17:04:33,503: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 17:04:33,506: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 17:04:33,507: INFO: common: created directory at: artifacts]
+[2023-12-05 17:04:52,259: INFO: common: json file saved at: scores.json]
+[2023-12-05 17:04:52,265: INFO: common: json file saved at: scores.json]
+[2023-12-05 17:04:52,266: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
