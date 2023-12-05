@@ -6,3 +6,43 @@
 [2023-12-05 13:52:46,364: INFO: common: yaml file: params.yaml loaded successfully]
 [2023-12-05 13:53:09,282: INFO: common: yaml file: config\config.yaml loaded successfully]
 [2023-12-05 13:53:09,284: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 14:04:14,798: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 14:04:14,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 14:05:35,314: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 14:05:35,317: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 14:05:35,319: INFO: common: created directory at: artifacts]
+[2023-12-05 14:05:35,319: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 14:05:35,325: INFO: 2204213689: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 14:05:56,868: INFO: 2204213689: Downloaded data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 14:24:22,232: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 14:24:22,234: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 14:24:22,236: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 14:24:22,237: INFO: common: created directory at: artifacts]
+[2023-12-05 14:24:22,238: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "d:\Kidney-Disease-classification-Deep-learning-project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "d:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2023-12-05 14:29:50,262: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 14:29:50,262: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 14:29:50,262: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 14:29:50,271: INFO: common: created directory at: artifacts]
+[2023-12-05 14:29:50,272: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-Deep-learning-project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "d:\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2023-12-05 14:40:23,082: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-05 14:40:23,086: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-12-05 14:40:23,103: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-05 14:40:23,104: INFO: common: created directory at: artifacts]
+[2023-12-05 14:40:23,104: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-05 14:40:23,104: INFO: data_ingesation: Downloading data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 14:40:34,999: INFO: data_ingesation: Downloaded data from https://drive.google.com/file/d/1k60akcZt52JZO4ULY_ZOKeIXZ0QvYbav/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-12-05 14:40:36,469: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
